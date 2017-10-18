@@ -1,0 +1,119 @@
+html, div, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #b80233;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.color-card{
+    margin-left: 20px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #963443;
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 70px;
+    padding-left: 10px;
+    /*padding-top: 5px;*/
+}
+
+.color-name{
+    font-size: 18px;
+    color: #ffffff;
+    width: 90px;
+    position: relative;
+    display: inline-block;
+}
+
+.value-rgb{
+    position: relative;
+    display: inline-block;
+    width: 155px;
+    height: 20px;
+}
+
+.rgb-text{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.value-cmyk{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+.cmyk-item{
+    width: 30px;
+    height: 30px;
+    /*margin: 50px auto;*/
+    position: relative;
+    /*border:1px solid #ddd;*/
+    margin-right: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #bbbbbb;
+}
+
+.cmyk-item-circle{
+    width: 14px;
+    height: 14px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    -webkit-transform: rotate(45deg);
+}
+
+.cmyk-item-circle-mask {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+    background: black;
+    position: absolute;
+}
+
+.circle-left{
+    border-bottom-width: 8px;
+    border-bottom-type: solid;
+    border-left-width: 8px;
+    border-left-type: solid;
+    border-bottom-color: #963443;
+    border-left-color: #963443;
+    left:0;
+    -webkit-transform: rotate(150deg);
+}
+.circle-right{
+    border-top-width: 8px;
+    border-top-type: solid;
+    border-right-width: 8px;
+    border-right-type: solid;
+    border-top-color: #963443;
+    border-right-color: #963443;
+    right:0;
+}
+
+.cmyk-item-wrapper{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.wrapper-left{
+    left:0;
+}
+.wrapper-right{
+    right:0;
+}
