@@ -15,6 +15,7 @@ data = [
 
 let colorList = $(".color-list");
 data.forEach((c, i)=>{
-    let document.createElement("label");
+    let colorCard = $("<li></li>");
+    colorCard.setAttribute("id", )
     colorList.appendChild()
 });
